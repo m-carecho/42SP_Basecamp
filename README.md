@@ -130,37 +130,128 @@ hexadecimals (lowercase), preceeded by a "backslash".
 
 
 
-
-
 ## List  `C03`
-#### 📍 Allowed functions:
+#### 📍 Allowed functions: **none**
 
-- [ ] [`Exercice 00 : `]()	-
+- [ ] [`Exercice 00 : ft_strcmp`]()	- Reproduce the behavior of the function strcmp (man strcmp).
+- [ ] [`Exercice 01 : ft_strncmp`]()	- Reproduce the behavior of the function strncmp (man strncmp).
+- [ ] [`Exercice 02 : ft_strcat`]()	- Reproduce the behavior of the function strcat (man strcat).
+- [ ] [`Exercice 03 : ft_strncat`]()	- Reproduce the behavior of the function strncat (man strncat).
+- [ ] [`Exercice 04 : ft_strstr`]()	- Reproduce the behavior of the function strstr (man strstr).
+- [ ] [`Exercice 05 : ft_strlcat`]()	- Reproduce the behavior of the function strlcat (man strlcat).
 
 ## List  `C04`
 #### 📍 Allowed functions:
 
-- [ ] [`Exercice 00 : `]()	-
+- [ ] [`Exercice 00 : ft_strlen`]()	- Create a function that counts and returns the number of characters in a string
+- [ ] [`Exercice 01 : ft_putstr`]()	- Create a function that displays a string of characters on the standard output.
+- [ ] [`Exercice 02 : ft_putnbr`]()	- Create a function that displays the number entered as a parameter. The function
+has to be able to display all possible values within an int type variable.
+
+- [ ] [`Exercice 03 : ft_atoi`]()	-  Write a function that converts the initial portion of the string pointed by str to its int
+representation
+- [ ] [`Exercice 04 : ft_putnbr_base`]()	- Create a function that displays a number in a base system in the terminal.
+- [ ] [`Exercice 05 : ft_atoi_base`]()	- Write a function that converts the initial portion of the string pointed by str to int
+representation.
+
 
 ## List  `C05`
-#### 📍 Allowed functions:
+#### 📍 Allowed functions: `write`
 
-- [ ] [`Exercice 00 : `]()	-
+- [ ] [`Exercice 00 : ft_iterative_factorial`]()	- Create an iterated function that returns a number. This number is the result of a
+factorial operation based on the number given as a parameter
+- [ ] [`Exercice 01 : ft_recursive_factoria`]()	- Create a recursive function that returns the factorial of the number given as a
+parameter.
+- [ ] [`Exercice 02 : ft_iterative_power`]()	- Create an iterated function that returns the value of a power applied to a number.
+An power lower than 0 returns 0. Overflows must not be handled.
+- [ ] [`Exercice 03 : ft_recursive_power`]()	- Create a recursive function that returns the value of a power applied to a number.
+- [ ] [`Exercice 04 : ft_fibonacci`]()	- Create a function ft_fibonacci that returns the n-th element of the Fibonacci sequence, the first element being at the 0 index. We’ll consider that the Fibonacci sequence starts like this: 0, 1, 1, 2.
+- [ ] [`Exercice 05 : ft_sqrt`]()	- Create a function that returns the square root of a number (if it exists), or 0 if the
+square root is an irrational number.
+- [ ] [`Exercice 06 : ft_is_prime`]()	- Create a function that returns 1 if the number given as a parameter is a prime
+number, and 0 if it isn’t.
+- [ ] [`Exercice 07 : ft_find_next_prime`]()	- Create a function that returns the next prime number greater or equal to the number
+given as argument.
+- [ ] [`Exercice 08 : ft_ten_queens_puzzle`]()	- Create a function that displays all possible placements of the ten queens on a
+chessboard which would contain ten columns and ten lines, without them being able to reach each other in a single move, and returns the number of possibilities. Recursivity is required to solve this problem.
+
 
 ## List  `C06`
-#### 📍 Allowed functions:
+#### 📍 Allowed functions: `write`
 
-- [ ] [`Exercice 00 : `]()	-
+- [ ] [`Exercice 00 : ft_print_program_name`]()	- Write a program that displays the name of the program.
+- [ ] [`Exercice 01 : ft_print_params`]()	- Write a program that displays the arguments received on the command line. One per line in the same order as the command line
+- [ ] [`Exercice 02 : ft_rev_params`]()	- Write a program that displays the arguments received on the command line. One per line in reverse command line order.
+- [ ] [`Exercice 03 : ft_sort_params`]()	- Write a program that displays the arguments received on the command line sorted in ascii order.
+
 
 ## List  `C07`
-#### 📍 Allowed functions:
+#### 📍 Allowed functions: `malloc`, `free`
 
-- [ ] [`Exercice 00 : `]()	-
+- [ ] [`Exercice 00 : ft_strdup`]()	- Reproduce the behavior of the function strdup (man strdup).
+- [ ] [`Exercice 01 : ft_range`]()	- Create a function ft_range which returns an array ofints. This int array should
+contain all values between min and max.
+- [ ] [`Exercice 02 : ft_ultimate_range`]()	- Create a function ft_ultimate_range which allocates and assigns an array of ints.
+This int array should contain all values between min and max.
+- [ ] [`Exercice 03 : ft_strjoin`]() - Write a function that will concatenate all the strings pointed by strs separated by
+sep
+- [ ] [`Exercice 04 : ft_convert_base`]()	- Create a function that returns the result of the conversion of the string nbr from a
+base base_from to a base base_to
+- [ ] [`Exercice 05 : ft_split`]() - Create a function that splits a string of character depending on another string of
+characters.
+
 
 ## List  `C08`
-#### 📍 Allowed functions:
+#### 📍 Allowed functions: `write`, `malloc`, `free`
 
-- [ ] [`Exercice 00 : `]()	-
+- [ ] [`Exercice 00 : ft.h`]()	- Create your ft.h file
+- [ ] [`Exercice 01 : ft_boolean.h`]()	- Create a ft_boolean.h file. It’ll compile and run the following main appropriately:
+```
+#include "ft_boolean.h"
+void ft_putstr(char *str)
+{
+  while (*str)
+  write(1, str++, 1);
+}
+t_bool ft_is_even(int nbr)
+{
+  return ((EVEN(nbr)) ? TRUE : FALSE);
+}
+int main(int argc, char **argv)
+{
+  (void)argv;
+  if (ft_is_even(argc - 1) == TRUE)
+  ft_putstr(EVEN_MSG);
+  else
+  ft_putstr(ODD_MSG);
+  return (SUCCESS);
+}
+```
+- [ ] [`Exercice 02 : ft_abs.h`]()	- Create a macro ABS which replaces its argument by it absolute value:
+`#define ABS(Value)`
+- [ ] [`Exercice 03 : ft_point.h`]()	- Create a file ft_point.h that’ll compile the following main:
+```
+#include "ft_point.h"
+void set_point(t_point *point)
+{
+  point->x = 42;
+  point->y = 21;
+}
+
+int main(void)
+{
+  t_point point;
+  set_point(&point);
+  return (0);
+}
+```
+- [ ] [`Exercice 04 : ft_strs_to_tab`]()	- Create a function that takes an array of string as argument and the size of this
+array
+- [ ] [`Exercice 05 : ft_show_tab`]()	- Create a function that displays the content of the array created by the previous
+function.
+
+
+
 
 ## List  `C09`
 #### 📍 Allowed functions:
