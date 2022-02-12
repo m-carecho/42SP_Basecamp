@@ -254,33 +254,126 @@ function.
 
 
 ## List  `C09`
-#### 📍 Allowed functions:
+#### 📍 Allowed functions: `write`, `malloc`
 
-- [ ] [`Exercice 00 : `]()	-
+- [ ] [`Exercice 00 : libft`]()	- Create your ft library. It will be called libft.a. A shell script called libft_creator.sh will properly compile the source files and build your library.
+- [ ] [`Exercice 01 : Makefile`]()	-
+- Write the Makefile that compiles a libft.a library.
+- Your makefile should clearly show every command you do without rambling.
+- Your makefile must not perform useless commands.
+- The Makefile will look for the source code files in the srcs folder.
+- These source code files will be: ft_putchar.c, ft_swap.c, ft_putstr.c, ft_strlen.c,
+ft_strcmp.c
+- The Makefile will look for the header files in the includes folder.
+- These header files will be: ft.h
+- It should compile its c files using gcc and the -Wall flag options
+-Wextra -Werror in that order.
+- The lib will be at the origin of the exercise.
+- The .o files must be next to their respective .c file.
+- Makefile should also implement clean, fclean, re, all rule
+and of course libft.a.
+- Running make only should be equivalent to make all.
+- [ ] [`Exercice 02 : ft_split`]()	-Write a function that splits a string of characters in terms of another
+string.
+
 
 ## List  `C10`
-#### 📍 Allowed functions:
+#### 📍 Allowed functions: `close`, `open`, `read`, `write`, `malloc`, `free`, `strerror`, `basename`
 
-- [ ] [`Exercice 00 : `]()	-
+
+- [ ] [`Exercice 00 : display_file`]()	- Create a program called ft_display_file that displays, on the standard output,
+only the content of the file given as argument
+- [ ] [`Exercice 01 : cat`]()	- Create a program called ft_cat which does the same thing as the system’s cat
+command-line.
+- [ ] [`Exercice 02 : tail`]()	- Create a program called ft_tail which does the same thing as the system command
+tail.
+- [ ] [`Exercice 03 : hexdump`]()	- Create a program called ft_hexdump which does the same thing as the system’s
+hexdump command-line without redirection.
+
 
 ## List  `C11`
 #### 📍 Allowed functions:
 
-- [ ] [`Exercice 00 : `]()	-
+- [ ] [`Exercice 00 : ft_foreach`]()	- Write a ft_foreach function that, for an array of integer data, applies
+a function over all the elements of this array. This function will be applied
+array order.
+- [ ] [`Exercice 01 : ft_map`]()	- Write a ft_map function that, for a given array of integers, will apply a
+function over all elements of that array (in sequence) and will return an array
+of all return values.
+- [ ] [`Exercice 02 : ft_any`]()	- Write a ft_any function that will return 1 if at least one element of the array
+return something other than 0 when passed to function f. Otherwise, should return 0.
+- [ ] [`Exercice 03 : ft_count_if`]()	- Write a ft_count_if function that will return the number of array elements
+which, when passed to the function f, do not return 0
+- [ ] [`Exercice 04 : ft_is_sort`]()	- Write a ft_is_sort function that will return 1 if the array is sorted and 0
+otherwise.
+- [ ] [`Exercice 05 : do-op`]()	- Write a program called do-op. The program must be run with three arguments: do-op valeur1 operateur
+valeur2. You must use an array of function pointers in order to call the function corresponding to an operator. In case of unknown operator, your program should show 0. If the number of arguments is not correct, do-op does not show anything. Your program should accept and display the result with the following operators: ’+’ '-' '/' '*' and '%'. 
+- [ ] [`Exercice 06 : ft_sort_string_tab`]()	- Write the ft_sort_string_tab function that sorts the strings in ascii order
+of characters
+- [ ] [`Exercice 07 : ft_advanced_sort_string_tab`]()	- 
+Write the ft_advanced_sort_string_tab function that sorts according to the return of the function passed as a parameter
+
 
 ## List  `C12`
-#### 📍 Allowed functions:
+#### 📍 Allowed functions: `ft_create_elem`, `free`, `malloc` 
 
-- [ ] [`Exercice 00 : `]()	-
+- [ ] [`Exercice 00 :  ft_create_elem`]()	- Create the function ft_create_elem which creates a new element of t_list type.
+- [ ] [`Exercice 01 :  ft_list_push_front`]()	- Create the function ft_list_push_front which adds a new element of type t_list
+to the beginning of the list.
+- [ ] [`Exercice 02 :  ft_list_size`]()	- Create the function ft_list_size which returns the number of elements in the
+list.
+- [ ] [`Exercice 03 :  ft_list_last`]()	- Create the function ft_list_last which returns the last element of the list
+- [ ] [`Exercice 04 :  ft_list_push_back`]()	- Create the function ft_list_push_back which adds a new element of t_list type
+at the end of the list.
+- [ ] [`Exercice 05 :  ft_list_push_strs`]()	- Create the function ft_list_push_strs which creates a new list that includes all
+the string pointed by the element in strs.
+- [ ] [`Exercice 06 :  ft_list_clear`]()	- Create the function ft_list_clear which removes and frees all links from the list
+- [ ] [`Exercice 07 :  ft_list_at`]()	- Create the function ft_list_at which returns the Nth element of the list, knowing
+that the first element of the list is when nbr equal 0.
+- [ ] [`Exercice 08 :  ft_list_reverse`]()	- Create the function ft_list_reverse which reverses the order of a list’s elements.
+The value of each element must remain the same.
+- [ ] [`Exercice 09 :  ft_list_foreach`]()	- Create the function ft_list_foreach which applies the function given as argument
+to each of the list’s elements
+- [ ] [`Exercice 10 :  ft_list_foreach_if`]()	- Create the function ft_list_foreach_if which applies the function given as argument to some of the list’s elements
+- [ ] [`Exercice 11 :  ft_list_find`]()	- Create the function ft_list_find which returns the address of the first element’s
+data compared to data_ref with cmp makes cmp to return 0
+- [ ] [`Exercice 12 :  ft_list_remove_if`]()	- Create the function ft_list_remove_if which removes from the list, all elements
+whose data compared to data_ref using cmp, makes cmp return 0.
+- [ ] [`Exercice 13 :  ft_list_merge`]()	-  Create the function ft_list_merge which places elements of a list begin2 at the
+end of an other list begin1
+- [ ] [`Exercice 14 :  ft_list_sort`]()	- Create the function ft_list_sort which sorts the list’s elements by ascending order
+by comparing two elements by comparing their data with a function.
+- [ ] [`Exercice 15 :  ft_list_reverse_fun`]()	- Create the function ft_list_reverse_fun which reverses the order of the elements
+of the list
+- [ ] [`Exercice 16 :  ft_sorted_list_insert`]()	- Create the function ft_sorted_list_insert which creates a new element and
+inserts it into a list sorted so that it remains sorted in ascending order.
+- [ ] [`Exercice 17 :  ft_sorted_list_merge`]()	- Create the function ft_sorted_list_merge which integrates the elements of a
+sorted list begin2 in another sorted list begin1, so that begin1 remains sorted by
+ascending order.
+
+
 
 ## List  `C13`
-#### 📍 Allowed functions:
+#### 📍 Allowed functions: `malloc`, `free`, `btree_create_node`
 
-- [ ] [`Exercice 00 : `]()	-
-
-
-
-
+- [ ] [`Exercice 00 : Exercise 00 : btree_create_node`]()	- Create the function btree_create_node which allocates a new element. It should
+initialise its item to the argument’s value, and all other elements to 0.
+- [ ] [`Exercice 01 : btree_apply_prefix`]()	- Create a function btree_apply_prefix which applies the function given as argument to the item of each node, using prefix traversal to search the tree.
+- [ ] [`Exercice 02 : btree_apply_infix`]()	- Create a function btree_apply_infix which applies the function given as argument
+to the item of each node, using infix traversal to search the tree.
+- [ ] [`Exercice 03 : btree_apply_suffix`]()	- Create a function btree_apply_suffix which applies the function given as argument to the item of each node, using suffix traversal to search the tree
+- [ ] [`Exercice 04 : btree_insert_data`]()	- Create a function btree_insert_data which inserts the element item into a tree.
+The tree passed as argument will be sorted : for each node all lower elements are located on the left side and all higher or equal elements on the right. We’ll also pass a comparison function similar to strcmp as argument
+- [ ] [`Exercice 05 : btree_search_item`]()	- Create a function btree_search_item which returns the first element related to
+the reference data given as argument. The tree should be browsed using infix
+traversal . If the element isn’t found, the function should return NULL.
+- [ ] [`Exercice 06 : btree_level_count`]()	- Create a function btree_level_count which returns the size of the largest branch
+passed as argument.
+- [ ] [`Exercice 07 : btree_apply_by_level`]() - Create a function btree_apply_by_level which applies the function passed as argument to each node of the tree. The tree must be browsed level by level. 
+- The function called will take three arguments :
+      - The first argument, of type void *, will correspond to the node’s item ;
+      - The second argument, of type int, corresponds to the level on which we find : 0 for root, 1 for children, 2 for grand-children, etc. ;
+      - The third argument, of type int, is worth 1 if it’s the first node of the level, or worth 0 otherwise.
 
 
 ---
