@@ -9,7 +9,7 @@
 * [What is Basecamp?](#sparkles-what-is-libft)
 * [Note](#pushpin_Note)
 * [C lists](#bookmark_tabs-list-of-functions)
-      * [C00](#List_C00)
+      - [C00](#list--c00)
 * [Technologies](#computer-technologies)
 
 ---
