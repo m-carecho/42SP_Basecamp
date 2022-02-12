@@ -52,15 +52,85 @@ The exercises included here have not been corrected by Moulliette
 
 
 ## List  `C01`
-#### 📍 Allowed functions:
+#### 📍 Allowed functions: `write` only in exercise 05
 
-- [ ] [`Exercice 00 : `]()	-
+- [ ] [`Exercice 00 : ft_ft`]()	- Create a function that takes a pointer to int as a parameter, and sets the value "42"
+to that int.
+
+- [ ] [`Exercice 01 : ft_ultimate_ft`]()	- Create a function that takes a pointer to pointer to pointer to pointer to pointer
+to pointer to pointer to pointer to pointer to int as a parameter and sets the value
+"42" to that int.
+
+- [ ] [`Exercice 02 : ft_ultimate_ft`]()	- Create a function that swaps the value of two integers whose addresses are entered
+as parameters.
+
+- [ ] [`Exercice 03 : ft_ultimate_ft`]()	- Create a function ft_div_mod prototyped like this :
+`void ft_div_mod(int a, int b, int *div, int *mod);`
+This function divides parameters a by b and stores the result in the int pointed by
+div. It also stores the remainder of the division of a by b in the int pointed by mod.
+
+- [ ] [`Exercice 04 : ft_ultimate_div_mod`]()	- Create a function ft_ultimate_div_mod with the following prototype :
+`void ft_ultimate_div_mod(int *a, int *b);`
+This function divides parameters a by b. The result of this division is stored in the
+int pointed by a. The remainder of the division is stored in the int pointed by b.
+
+- [ ] [`Exercice 05 : ft_putstr`]()	- Create a function that displays a string of characters on the standard output.
+
+- [ ] [`Exercice 06 : ft_strlen`]()	- Create a function that counts and returns the number of characters in a string
+
+- [ ] [`Exercice 07 : ft_rev_int_tab`]()	- Create a function which reverses a given array of integer (first goes last, etc).
+
+- [ ] [`Exercice 08 : ft_sort_int_tab`]()	- Create a function which sorts an array of integers by ascending order.
+
 
 
 ## List  `C02`
-#### 📍 Allowed functions:
+#### 📍 Allowed functions: `write`
 
-- [ ] [`Exercice 00 : `]()	-
+- [ ] [`Exercice 00 : ft_strcpy`]()	- Reproduce the behavior of the function strcpy (man strcpy).
+
+- [ ] [`Exercice 01 : ft_strncpy`]() - Reproduce the behavior of the function strncpy (man strncpy).
+
+
+- [ ] [`Exercice 02 : ft_str_is_alpha`]()	- Create a function that returns 1 if the string given as a parameter contains only
+alphabetical characters, and 0 if it contains any other character.
+
+- [ ] [`Exercice 03 : ft_str_is_numeric`]()	- Create a function that returns 1 if the string given as a parameter contains only
+digits, and 0 if it contains any other character.
+
+- [ ] [`Exercice 04 : ft_str_is_lowercase`]()	- Create a function that returns 1 if the string given as a parameter contains only
+lowercase alphabetical characters, and 0 if it contains any other character.
+
+- [ ] [`Exercice 05 :  ft_str_is_uppercase`]()	- Create a function that returns 1 if the string given as a parameter contains only
+uppercase alphabetical characters, and 0 if it contains any other character.
+
+- [ ] [`Exercice 06 : ft_str_is_printable`]()	- Create a function that returns 1 if the string given as a parameter contains only
+printable characters, and 0 if it contains any other character.
+
+- [ ] [`Exercice 07 : ft_strupcase`]()	- Create a function that transforms every letter to uppercase.
+
+- [ ] [`Exercice 08 : ft_strlowcase`]()	- Create a function that transforms every letter to lowercase
+
+- [ ] [`Exercice 09 : ft_strcapitalize`]()	- Create a function that capitalizes the first letter of each word and transforms all
+other letters to lowercase.
+
+- [ ] [`Exercice 10 : ft_strlcpy`]()	- Reproduce the behavior of the function strlcpy (man strlcpy).
+
+- [ ] [`Exercice 11 : ft_putstr_non_printable`]()	- Create a function that displays a string of characters onscreen. If this string contains characters that aren’t printable, they’ll have to be displayed in the shape of
+hexadecimals (lowercase), preceeded by a "backslash".
+
+- [ ] [`Exercice 12 : ft_print_memory`]()	- Create a function that displays the memory area onscreen
+• The display of this memory area should be split into three "columns" separated by a space :
+  ◦ The hexadecimal address of the first line’s first character followed by a ’:’.
+  ◦ The content in hexadecimal with a space each 2 characters and should be
+  padded with spaces if needed (see the example below).
+  ◦ The content in printable characters.
+• If a character is non-printable, it’ll be replaced by a dot.
+• Each line should handle sixteen characters.
+• If size equals to 0, nothing should be displayed
+
+
+
 
 
 ## List  `C03`
