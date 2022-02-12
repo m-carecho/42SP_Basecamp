@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://github.com/m-carecho/42SP_Basecamp"><img height="100px" width="100%" src="https://user-images.githubusercontent.com/98053054/153719199-efe3a54c-4124-4f66-92fe-69959c8cfd11.png" /></a>
+<a href="https://github.com/m-carecho/42SP_Basecamp"><img height="20%" width="100%" src="https://user-images.githubusercontent.com/98053054/153719199-efe3a54c-4124-4f66-92fe-69959c8cfd11.png" /></a>
 </div>
 
 ---
