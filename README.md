@@ -14,12 +14,15 @@
 ---
 
 # :sparkles: What is Basecamp?
-
+Basecamp is the selection process of 42 São Paulo, It is an immersive 20-day training, which takes place virtually through Discord. In this immersion, all people who participate will experience the learning method and culture of 42 in practice.
 
 ---
 
 # :pushpin: Note
+The exercises included in this repository were refactored and performed after my entry into 42, I decided to redo the lists that I did not perform during basecamp for training purposes, during basecamp I only performed up to list C04.
+Shell lists are not included in this repository.
 
+The exercises included here have not been corrected by Moulliette
 
 ---
 
@@ -49,6 +52,76 @@
 
 
 ## List  `C01`
+#### 📍 Allowed functions:
+
+- [ ] [`Exercice 00 : `]()	-
+
+
+## List  `C02`
+#### 📍 Allowed functions:
+
+- [ ] [`Exercice 00 : `]()	-
+
+
+## List  `C03`
+#### 📍 Allowed functions:
+
+- [ ] [`Exercice 00 : `]()	-
+
+## List  `C04`
+#### 📍 Allowed functions:
+
+- [ ] [`Exercice 00 : `]()	-
+
+## List  `C05`
+#### 📍 Allowed functions:
+
+- [ ] [`Exercice 00 : `]()	-
+
+## List  `C06`
+#### 📍 Allowed functions:
+
+- [ ] [`Exercice 00 : `]()	-
+
+## List  `C07`
+#### 📍 Allowed functions:
+
+- [ ] [`Exercice 00 : `]()	-
+
+## List  `C08`
+#### 📍 Allowed functions:
+
+- [ ] [`Exercice 00 : `]()	-
+
+## List  `C09`
+#### 📍 Allowed functions:
+
+- [ ] [`Exercice 00 : `]()	-
+
+## List  `C10`
+#### 📍 Allowed functions:
+
+- [ ] [`Exercice 00 : `]()	-
+
+## List  `C11`
+#### 📍 Allowed functions:
+
+- [ ] [`Exercice 00 : `]()	-
+
+## List  `C12`
+#### 📍 Allowed functions:
+
+- [ ] [`Exercice 00 : `]()	-
+
+## List  `C13`
+#### 📍 Allowed functions:
+
+- [ ] [`Exercice 00 : `]()	-
+
+
+
+
+
 
 ---
 
