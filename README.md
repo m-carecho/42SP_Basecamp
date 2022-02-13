@@ -32,11 +32,11 @@ The exercises included here have not been corrected by Moulliette
 ## List  `C00`
 #### 📍 Allowed functions: `write`
 
-- [ ] [`Exercice 00 : ft_putchar`]()	- Write a character that displays the character passed as a parameter.
+- [ ] [`Exercice 00 : ft_putchar`](https://github.com/m-carecho/42SP_Basecamp/blob/main/C00/ex00/ft_putchar.c)	- Write a character that displays the character passed as a parameter.
 
-- [ ] [`Exercice 01 : ft_print_alphabet`]()	- Create a function that displays the alphabet in lowercase, on a single line, by ascending order, starting from the letter 'a'.
+- [ ] [`Exercice 01 : ft_print_alphabet`](https://github.com/m-carecho/42SP_Basecamp/blob/main/C00/ex01/ft_print_alphabet.c)	- Create a function that displays the alphabet in lowercase, on a single line, by ascending order, starting from the letter 'a'.
 
-- [ ] [`Exercice 02 : ft_print_alphabet`]()	- Create a function that displays the alphabet in lowercase, on a single line, by descending order, starting from the letter 'z'.
+- [ ] [`Exercice 02 : ft_print_alphabet`](https://github.com/m-carecho/42SP_Basecamp/blob/main/C00/ex02/ft_print_reverse_alphabet.c)	- Create a function that displays the alphabet in lowercase, on a single line, by descending order, starting from the letter 'z'.
 
 - [ ] [`Exercice 03 : ft_print_numbers`]()	- Create a function that displays all digits, on a single line, by ascending order. 
 
